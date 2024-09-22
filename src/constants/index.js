@@ -89,7 +89,7 @@ export const PROJECTS = [
     link: "https://streamerzz-two.vercel.app/",
     description:
       "A fully functional & responsive modern SeaS landing page for streamer application that optimize stream and provides real time analytics for gamers",
-    technologies: ["React", "Tailwind", "JavaScript", "Framer Motion"],
+    technologies: ["React", "Tailwind", "JavaScript", "Framer Motion"]
   },
   // {
   //   title: "Portfolio Website",
