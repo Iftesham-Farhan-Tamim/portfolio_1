@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/tamimProfile.webp"
 import { HERO_CONTENT, RESUME } from "../constants"
 import { motion } from 'framer-motion'
 
