@@ -10,7 +10,7 @@ well as Back End technologies like Spring boot, MySQL. My goal is to leverage my
 innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const RESUME = {
-  link: "https://drive.google.com/file/d/19OMNrnpxqOquT1835eSYogR5LH1lsj0d/view?usp=sharing",
+  link: "https://drive.google.com/drive/folders/18k3QtR3PfW42qyFxrQuTTfmffisi91or",
 };
 
 export const ABOUT_TEXT = `I am a dedicated and versatile Front End developer with a passion for creating 
