@@ -51,7 +51,8 @@ function Hero() {
                         </motion.h2>
                         <motion.span
                             variants={childVariants}
-                            className='bg-gradient-to-tr from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent'>
+                            className='bg-gradient-to-tr from-stone-300 to-stone-600 bg-clip-text text-3xl 
+                            tracking-tight text-transparent'>
                             Front-End Developer
                         </motion.span>
                         <motion.p
@@ -65,7 +66,8 @@ function Hero() {
                             target='_blank'
                             rel='noopener noreferrer'
                             download
-                            className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10 font-semibold'>
+                            className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10 font-semibold
+                            hover:bg-slate-200 transition-colors'>
                             View Resume
                         </motion.a>
                     </motion.div>

@@ -10,7 +10,7 @@ well as Back End technologies like Spring boot, MySQL. My goal is to leverage my
 innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const RESUME = {
-  link: "https://drive.google.com/drive/folders/18k3QtR3PfW42qyFxrQuTTfmffisi91or",
+  link: "https://drive.google.com/file/d/1JN_eDUwGnWOW-ZZvq0cgYOMunHhl4QDo/view?usp=drive_link",
 };
 
 export const ABOUT_TEXT = `I am a dedicated and versatile Front End developer with a passion for creating 
@@ -66,6 +66,10 @@ export const PROJECTS = [
     description:
       "A fully functional and responsive food and restaurant website with features like product listing & product details with users review.",
     technologies: ["HTML", "CSS", "React JS", "Tailwind", "Framer-motion"],
+    buttons: [
+      { name: "Github Link", url: "https://github.com/Iftesham-Farhan-Tamim/restaura" },
+      { name: "Live Preview", url: "https://restaura-psi.vercel.app/" },
+    ],
   },
   {
     title: "House Renovation Website",
@@ -74,6 +78,10 @@ export const PROJECTS = [
     description:
       "A fully resposive website for showcasing services of house renovation, with features such as kitchen renovation, bathroom renovation & living room renovation services with users review.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "JavaScript"],
+    buttons: [
+      { name: "Github Link", url: "https://github.com/Iftesham-Farhan-Tamim/Vastu-spaze" },
+      { name: "Live Preview", url: "https://vastu-spaze-nine.vercel.app/" },
+    ],
   },
   {
     title: "Virtual Reality Software Website",
@@ -82,6 +90,10 @@ export const PROJECTS = [
     description:
       "A fully functional and responsive website for vartual reality software company name Vartual IR, with provided features, AI assistance code review, pricing & users review.",
     technologies: ["HTML", "CSS", "React", "Tailwind", "JavaScript"],
+    buttons: [
+      { name: "Github Link", url: "https://github.com/Iftesham-Farhan-Tamim/vartual-IR" },
+      { name: "Live Preview", url: "https://vartual-ir.vercel.app/" },
+    ],
   },
   {
     title: "Streamerzz the Ultimate Streaming Toolkit",
@@ -89,7 +101,11 @@ export const PROJECTS = [
     link: "https://streamerzz-two.vercel.app/",
     description:
       "A fully functional & responsive modern SeaS landing page for streamer application that optimize stream and provides real time analytics for gamers",
-    technologies: ["React", "Tailwind", "JavaScript", "Framer Motion"]
+    technologies: ["React", "Tailwind", "JavaScript", "Framer Motion"],
+    buttons: [
+      { name: "Github Link", url: "https://github.com/Iftesham-Farhan-Tamim/Streamerzz" },
+      { name: "Live Preview", url: "https://streamerzz-two.vercel.app/" },
+    ],
   },
   // {
   //   title: "Portfolio Website",
@@ -97,6 +113,7 @@ export const PROJECTS = [
   //   description:
   //     "A personal portfolio website showcasing projects, skills, and contact information.",
   //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
+  //   button: ["Github Link", "Live Preview"],
   // },
 ];
 
