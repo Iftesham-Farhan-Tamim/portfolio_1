@@ -12,7 +12,11 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import { SiSpringboot } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCode } from '@fortawesome/free-solid-svg-icons'; // For code icon
+import { SiCplusplus } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -53,7 +57,29 @@ function Technologies() {
                     animate='animate'
                     variants={iconVariants(3)}
                     className='p-4'>
+                    <TbBrandNextjs className='text-7xl text-white bg-black' />
+                </motion.div>
+                <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(3.5)}
+                    className='p-4'>
                     <SiTailwindcss className='text-7xl text-blue-400' />
+                </motion.div>
+                {/* C++ icon */}
+                {/* <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(4)}
+                    className='p-4'>
+                    <FontAwesomeIcon icon={faCode} className="text-7xl text-blue-600" />
+                </motion.div> */}
+                <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(4)}
+                    className='p-4'>
+                    <SiCplusplus className='text-7xl text-blue-500' />
                 </motion.div>
                 <motion.div
                     initial='initial'
@@ -72,7 +98,7 @@ function Technologies() {
                 <motion.div
                     initial='initial'
                     animate='animate'
-                    variants={iconVariants(2)}
+                    variants={iconVariants(3)}
                     className='p-4'>
                     <SiSpringboot className='text-7xl text-green-400' />
                 </motion.div>
@@ -86,10 +112,38 @@ function Technologies() {
                 <motion.div
                     initial='initial'
                     animate='animate'
-                    variants={iconVariants(2)}
+                    variants={iconVariants(3.5)}
                     className='p-4'>
                     <FaGithub className='text-7xl text-white' />
                 </motion.div>
+                <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(4.5)}
+                    className='p-4'>
+                    <FaGitAlt className='text-7xl text-orange-500' />
+                </motion.div>
+                {/* <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(4)}
+                    className='p-4'>
+                    <FaNodeJs className='text-7xl text-green-500' />
+                </motion.div> */}
+                {/* <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(3)}
+                    className='p-4'>
+                    <SiMongodb className='text-7xl text-green-600' />
+                </motion.div> */}
+                {/* <motion.div
+                    initial='initial'
+                    animate='animate'
+                    variants={iconVariants(2.5)}
+                    className='p-4'>
+                    <SiExpress className='text-7xl text-white bg-black' />
+                </motion.div> */}
             </motion.div>
         </div>
     )

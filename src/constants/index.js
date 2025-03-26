@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
-import project5 from "../assets/projects/project-5.webp";
+// import project5 from "../assets/projects/project-5.webp";
 
 export const HERO_CONTENT = `I am a passionate Front End developer with a knack for crafting robust and 
 scalable web applications. I have honed my skills in Front End technologies like React and Tailwind, as 
