@@ -71,7 +71,6 @@ function Hero() {
                             View Resume
                         </motion.a>
                     </motion.div>
-
                 </div>
             </div>
         </div>

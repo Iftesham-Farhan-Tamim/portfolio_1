@@ -12,7 +12,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 import { SiSpringboot } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // For code icon
 // import { faCode } from '@fortawesome/free-solid-svg-icons'; // For code icon
 import { SiCplusplus } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
@@ -66,7 +66,7 @@ function Technologies() {
                     className='p-4'>
                     <SiTailwindcss className='text-7xl text-blue-400' />
                 </motion.div>
-                {/* C++ icon */}
+                {/* C++ (code icon) icon */}
                 {/* <motion.div
                     initial='initial'
                     animate='animate'
