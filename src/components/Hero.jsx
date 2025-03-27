@@ -34,7 +34,8 @@ function Hero() {
                             height={650}
                             initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 1, delay: 1.5 }} />
+                            transition={{ duration: 1, delay: 1.5 }}
+                        />
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2'>
@@ -45,7 +46,6 @@ function Hero() {
                         className='flex flex-col items-center lg:items-start mt-10'>
                         <motion.h2
                             variants={childVariants}
-
                             className='pb-2 text-4xl tracking-tighter lg:text-7xl'>
                             Iftesham Farhan Tamim
                         </motion.h2>

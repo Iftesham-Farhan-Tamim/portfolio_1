@@ -19,7 +19,7 @@ function Projects() {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 1 }}
-                            className='w-full lg:w-1/4'>
+                            className='w-full lg:w-1/4 flex justify-center'>
                             <a /* href={project.link} target='_blank' rel='noopener noreferrer' */>
                                 <img src={project.image}
                                     width={250}
@@ -32,13 +32,13 @@ function Projects() {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }}
-                            className='w-full max-w-xl lg:w-3/4'>
+                            className='w-full max-w-xl lg:w-3/4 text-center lg:text-left flex flex-col items-center lg:items-start'>
                             <a /* href={project.link} target='_blank' rel='noopener noreferrer' */>
                                 <h3 className='mb-2 font-semibold text-2xl'>
                                     {project.title}
                                 </h3>
                             </a>
-                            <p className='mb-4 text-stone-400 text-justify'>
+                            <p className='mb-4 text-stone-400 text-center lg:text-justify'>
                                 {project.description}
                             </p>
                             <div>
@@ -49,13 +49,13 @@ function Projects() {
                                     </span>
                                 ))}
                             </div>
-                            <div className='mt-8'>
+                            <div className='mt-8 pb-6 lg:pb-0'>
                                 {project.buttons.map((button, index) => (
                                     <a key={index} href={button.url} target='_blank'
                                         rel='noopener noreferrer'>
-                                        <span className='mr-2 rounded-xl bg-stone-700 p-2 
+                                        <span className='mr-2 rounded-2xl bg-stone-700 p-3 
                                             text-sm font-semibold text-stone-200 cursor-pointer 
-                                            hover:bg-stone-500'>
+                                            hover:bg-stone-500 transition-colors'>
                                             {button.name}
                                         </span>
                                     </a>
