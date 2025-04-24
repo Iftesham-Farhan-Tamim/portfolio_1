@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
 import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
+import { SiCodechef } from 'react-icons/si';
 
 function Navbar() {
     return (
@@ -32,12 +33,18 @@ function Navbar() {
                     aria-label='Codeforces'>
                     <SiCodeforces />
                 </a>
+                <a href="https://www.codechef.com/users/farhan_tamim"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Codechef">
+                    <SiCodechef />
+                </a>
                 <a href="https://leetcode.com/u/iftesham_farhan_tamim/"
                     target='_black'
                     rel='noopener noreferrer'
                     aria-label='LeetCode'>
                     <SiLeetcode />
-                </a>     
+                </a>
             </div>
         </nav>
     )

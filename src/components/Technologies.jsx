@@ -123,27 +123,27 @@ function Technologies() {
                     className='p-4'>
                     <FaGitAlt className='text-7xl text-orange-500' />
                 </motion.div>
-                {/* <motion.div
+                <motion.div
                     initial='initial'
                     animate='animate'
                     variants={iconVariants(4)}
                     className='p-4'>
                     <FaNodeJs className='text-7xl text-green-500' />
-                </motion.div> */}
-                {/* <motion.div
+                </motion.div>
+                <motion.div
                     initial='initial'
                     animate='animate'
                     variants={iconVariants(3)}
                     className='p-4'>
                     <SiMongodb className='text-7xl text-green-600' />
-                </motion.div> */}
-                {/* <motion.div
+                </motion.div>
+                <motion.div
                     initial='initial'
                     animate='animate'
                     variants={iconVariants(2.5)}
                     className='p-4'>
                     <SiExpress className='text-7xl text-white bg-black' />
-                </motion.div> */}
+                </motion.div>
             </motion.div>
         </div>
     )
