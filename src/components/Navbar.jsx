@@ -21,7 +21,7 @@ function Navbar() {
                     aria-label='LinkedIn'>
                     <FaLinkedin />
                 </a>
-                <a href="https://github.com/Iftesham-Farhan-Tamim?tab=repositories"
+                <a href="https://github.com/Iftesham-Farhan-Tamim"
                     target='_black'
                     rel='noopener noreferrer'
                     aria-label='GitHub'>
