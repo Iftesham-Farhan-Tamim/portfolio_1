@@ -17,6 +17,8 @@ import { SiMysql } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
+import { SiNumpy, SiPandas, SiPython } from "react-icons/si";
+import { FaChartLine } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -144,6 +146,35 @@ function Technologies() {
                     className='p-4'>
                     <SiExpress className='text-7xl text-white bg-black' />
                 </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(4)}
+                    className="p-4">
+                    <SiNumpy className="text-7xl text-blue-400" />
+                </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(4.5)}
+                    className="p-4">
+                    <SiPandas className="text-7xl text-purple-500" />
+                </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(5)}
+                    className="p-4">
+                    <FaChartLine className="text-7xl text-blue-500" />
+                </motion.div>
+                <motion.div
+                    initial="initial"
+                    animate="animate"
+                    variants={iconVariants(3.5)}
+                    className="p-4">
+                    <SiPython className="text-7xl text-yellow-400" />
+                </motion.div>
+
             </motion.div>
         </div>
     )
