@@ -118,7 +118,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Dhaka, Bangladesh",
-  phoneNo: "+8801552328744 ",
-  email: "tamim030116@gmail.com",
+  address: "Brisbane, Australia",
+  phoneNo: "+61402874544 ",
+  email: "ifteshamtamim@gmail.com",
 };
